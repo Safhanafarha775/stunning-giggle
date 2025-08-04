@@ -28,5 +28,22 @@ else:
 	print("Failed")	
 	
 #greatest of 3 numbers
-
+a=int(input("Enter 1st number : "))
+b=int(input("Enter 2nd number : "))
+c=int(input("Enter 3rd number : "))
+if a>b:
+	if a>c:
+		print(f"{a} is the greatest number")
+	else:
+		print(f"{c} is the greatest number")
+else:
+	if b>c:
+		print(f"{b} is the greatest number")
+	else:
+		print(f"{c} is the greatest number")
 #check whether a number is divisible by 2 & 3
+num=int(input("Enter a number : "))
+if num%2==0 & num%3==0:
+	print(f"{num} is divisible by 2 and 3")
+else:
+	print(f"{num} is not divisible by 2 and 3")
